@@ -1,5 +1,5 @@
 import tkinter as tk
-import window.Colors, window.Preview, window.Save, window.Text, window.Images
+import window.Background, window.Preview, window.Save, window.Text, window.Images
 import GifManager
 
 
@@ -28,7 +28,7 @@ class App:
         self.tools_panel.grid(column=0, sticky=tk.NS + tk.EW)
 
         save = window.Save.Save(self.tools, self.tools_panel, self.variables)
-        colors = window.Colors.Colors(self.tools, self.tools_panel, self.variables)
+        colors = window.Background.Colors(self.tools, self.tools_panel, self.variables)
         text = window.Text.Text(self.tools, self.tools_panel, self.variables)
         images = window.Images.Images(self.tools, self.tools_panel, self.variables)
 

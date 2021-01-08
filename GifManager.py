@@ -1,6 +1,4 @@
-from PIL import Image, ImageColor, ImageDraw, ImageFont, ImageTk
-import tkinter as tk
-from Frame import Frame
+from PIL import Image, ImageColor, ImageDraw, ImageFont
 import tempfile
 import os
 

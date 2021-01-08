@@ -1,8 +1,7 @@
 import tkinter as tk
-from Frame import Frame
+from window.Frame import Frame
 from functools import partial
-from PIL import ImageColor, ImageFont, Image
-from functions import is_color, is_font_family, to_max_size, to_only_int
+from functions import to_max_size, to_only_int
 from tkinter import filedialog
 
 

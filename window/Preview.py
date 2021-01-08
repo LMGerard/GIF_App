@@ -1,5 +1,5 @@
 import tkinter as tk
-from Frame import Frame
+from window.Frame import Frame
 from functools import partial
 from PIL import Image, ImageTk
 

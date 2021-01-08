@@ -1,9 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog
-from Frame import Frame
+from window.Frame import Frame
 from functools import partial
 from functions import to_only_int, to_max_size
-import re
 
 
 class Save(Frame):
